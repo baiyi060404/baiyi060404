@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "requested_at": "2026-09-10T18:44:50+08:00",
+  "model": "XLabs-AI/flux-RealismLora",
+  "provider": "fal-ai",
+  "prompt": "street photo of a small convenience store entrance in an old residential neighborhood, late autumn afternoon, 4pm, warm golden sunlight coming from the right side, long soft shadows on the concrete sidewalk, visible wear and small cracks on concrete, glass door with faded stickers and subtle street reflection, metal rolling shutter with rust spots and dust, potted chrysanthemums on the step with dry leaves, a middle-aged man in a worn gray jacket walking past, holding a crumpled plastic bag, motion blur on his moving arm, fallen ginkgo leaves scattered on the ground, distant bicycle leaning against the wall, chipped wall paint, small puddle from morning rain reflecting the sky, natural ambient occlusion, indirect bounce light, candid shot, eye level angle, shot on Sony A7IV, 35mm f/2.0 lens, Kodak Portra 400 film, natural film color",
+  "parameters": {
+    "width": 768,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "seed": 12345,
+    "negative_prompt": "3d render, cgi, cartoon, illustration, painting, anime, sketch, drawing, plastic, wax, doll, porcelain skin, airbrushed, smooth skin, beauty filter, deformed hands, extra fingers, mutated anatomy, disfigured, bad proportions, blurry, oversharpened, text, logo, watermark, signature, border, frame"
+  },
+  "elapsed_seconds": 34.76,
+  "output": "outputs\\flux_20260910_184450_840365.png"
+}

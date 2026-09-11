@@ -1,0 +1,18 @@
+{
+  "status": "error",
+  "requested_at": "2026-09-10T18:47:18+08:00",
+  "model": "XLabs-AI/flux-RealismLora",
+  "provider": "fal-ai",
+  "prompt": "candid street snapshot of a small convenience store entrance in an old residential neighborhood, late autumn afternoon, 4pm, warm golden sunlight coming from the right side, lens flare from the sun at the top right corner, long soft shadows on the concrete sidewalk, visible wear and small cracks on concrete, glass door with faded stickers and subtle street reflection, metal rolling shutter with rust spots and dust, potted chrysanthemums on the step with dry leaves, a middle-aged man in a worn gray jacket walking past, holding a crumpled plastic bag, looking down at his shoes, motion blur on his moving arm, fallen ginkgo leaves scattered on the ground, a crumpled cigarette butt on the curb, distant bicycle leaning against the wall, chipped wall paint, small puddle from morning rain reflecting the sky, a half-torn poster on the wall, dust particles visible in the sunbeam, slight vignetting, natural film grain, slight color cast, soft focus at the edges, shot on Leica M6, 35mm f/2.8 lens, Kodak Gold 200 film, straight out of camera, no retouching",
+  "parameters": {
+    "width": 768,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "seed": 12345,
+    "negative_prompt": "3d render, cgi, cartoon, illustration, painting, anime, sketch, drawing, plastic, wax, doll, porcelain skin, airbrushed, smooth skin, beauty filter, deformed hands, extra fingers, mutated anatomy, disfigured, bad proportions, blurry, oversharpened, text, logo, watermark, signature, border, frame"
+  },
+  "elapsed_seconds": 1.9,
+  "error_type": "HfHubHTTPError",
+  "error_message": "402 Client Error: Payment Required for url: https://router.huggingface.co/fal-ai/fal-ai/flux-lora (Request ID: Root=1-6aa28ab7-19e8cd2634b30a444029f660;87ebe92b-a2d5-443d-a7fb-cd5f4669be59)\n\nYou have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+}
